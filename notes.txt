@@ -21,9 +21,23 @@ git checkout [few charecter of commit id]
 # go back to master
 git checkout master 
 
-
-
 # branch
 git branch [branch-name]
 git checkout [branch-name]
 git checkout -b [branch-name]
+
+# merge to master
+# move to master
+git checkout master 
+git merge [branch to merge from]
+
+
+# add remote
+git remote add origin [url]
+# push master to remote
+git push -u origin master
+
+
+# after making change pushing to remote repo
+# add commit
+git push
