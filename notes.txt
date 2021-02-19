@@ -1,0 +1,17 @@
+git init
+
+git status
+
+# Add to staging area
+git add index.html
+git add *.html
+git add .
+
+# remove from staging area
+git rm --cached index.html
+
+# commit
+git commit (opens default editor to enter the commit message)
+git commit -m "message"
+
+git log
