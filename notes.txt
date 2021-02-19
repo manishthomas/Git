@@ -31,9 +31,12 @@ git checkout -b [branch-name]
 git checkout master 
 git merge [branch to merge from]
 
+#check remote
+git remote -v
 
 # add remote
 git remote add origin [url]
+git remote add [alias-name] [link-of-repo]
 # push master to remote
 git push -u origin master
 
@@ -41,3 +44,5 @@ git push -u origin master
 # after making change pushing to remote repo
 # add commit
 git push
+git push [alias-name] [branch-name]
+git pull  [alias-name] [branch-name]
