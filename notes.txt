@@ -15,3 +15,15 @@ git commit (opens default editor to enter the commit message)
 git commit -m "message"
 
 git log
+
+# go back to a commit 
+git checkout [few charecter of commit id]
+# go back to master
+git checkout master 
+
+
+
+# branch
+git branch [branch-name]
+git checkout [branch-name]
+git checkout -b [branch-name]
