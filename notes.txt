@@ -22,6 +22,8 @@ git checkout [few charecter of commit id]
 git checkout master 
 
 # branch
+#See all the branches
+git branch
 git branch [branch-name]
 git checkout [branch-name]
 git checkout -b [branch-name]
@@ -40,9 +42,18 @@ git remote add [alias-name] [link-of-repo]
 # push master to remote
 git push -u origin master
 
+#for New Git
+git remote add origin https://github.com/manishthomas/Git.git
+git branch -M main
+git push -u origin main
+
+#in case of mutiple accounts
+git remote set-url origin https://manishthomas@github.com/manishthomas/Git.git
 
 # after making change pushing to remote repo
 # add commit
 git push
 git push [alias-name] [branch-name]
 git pull  [alias-name] [branch-name]
+
+
